@@ -26,18 +26,15 @@ To configure the files, edit the config.ini file. This file is responsible for t
 - To compile into .exe, install pyinstaller. Run the command pyinstaller --onefile driver.py
 - .pub files WILL NOT be updated, only .docx files will. .pub files will have to be manually fixed (AKA the to-go and bubble tea menu).
 
-#### Panda Garden Website: https://ellensburgpandagarden.com/
+#### Panda Garden Website: https://ellensburgpandagarden.github.io/
 
 #### Github Repository: https://github.com/TylerKay/pg_app
 
-#### Last updated: 8/21/2022
+#### Last updated: 1/4/2024
 
 
-
-
-### To-do
+### Updates 1/4/2024
+- Incremented prices by $1
+- Removed oriental and American salads
 - Add Egg Foo Young to website
-
-
-### Updates
-- Removed oriental and american salads
+- Removed /src directory to root. Moved menu automation into separate directory.
