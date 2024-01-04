@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+   <div align="center" style="z-index:9;visibility:visible;">
+   </div>
+   <style>
+      HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/wwfpanda.cur"), 
+      url("http://downloads.totallyfreecursors.com/thumbnails/wwf-panda.gif"), auto;}
+   </style>
+   <head>
+      <title>Panda Garden</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <head>
+      <meta name="keywords" content="ellensburg restaurants, ellensburg food, ellensburg, panda garden, ellensburg panda garden, ellensburg chinese food, ellensburg asian, ellensburg chinese, chinese kittitas, chinese food wa, kittitas county, restaurants near me," />
+      <meta name="description" content="Panda Garden Ellensburg Washington" />
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+
+      <nav>
+         <div>
+            <div>
+               <p>
+                  <a href="index.html">
+                     <img src="pic/icon3.0.jpg" width="296px;"height= 47px;> 
+            </div>
+            </p>
+            <ul>
+               <li><a href="">&nbsp;</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Menu</a>
+               <ul>
+                  <li><a href="entree.html">Entree</a></li>
+                  <li><a href="appetizer.html">Appetizer</a></li>
+                  <li><a href="lunchcombo.html">Lunch Combination</a></li>
+                  <li><a href="dinnercombo.html">Dinner Combination</a></li>
+                  <li><a href="familydinners.html">Family Dinner</a></li>
+                  <li><a href="noodle-bowls_side-orders_and_beverages.html">Noodle Bowls, Side Orders and Beverages</a></li>
+                  <li><a href="traditional_chinese_menu.html">Traditional Chinese</a></li>	
+               </ul>
+               <li><a href="contact_us.html">Contact Us</a></li>
+            </div>
+         </ul>
+         </div>
+      </nav>
+      <header class="showcase"> 
+         <br>
+         <br>
+         <br>
+         <div>
+            <h1>Entree</h1>
+         </div>
+         <br>
+         <p><b>We Deliver (509) 925-2090</b></p>
+         <font size="3" face="arial">
+         <div align=center><br></div>
+         <div align=center>
+
+         <!-- Gourmet Delight Section -->
+         <table id="gourmetDelightSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>
+            <div align=center>
+         
+         <table id="porkSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>   
+            <div align=center>
+
+         <table id="chickenSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>
+            <div align=center>
+
+          <table id="beefSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>
+            <div align=center>
+
+         <table id="seafoodSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>
+            <div align=center>
+
+         <table id="vegetarianSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <div align=center><br></div>
+            <div align=center>
+
+         <table id="soupSection" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+         
+                  </h3>
+               </div>
+            </div>
+      </header>
+      </div>
+      <script>
+         Papa.parse("../menu.csv", {
+             download: true,
+             header: true,
+             skipEmptyLines: true,
+             complete: function (results) {
+                 console.log(results)
+                 test = results.data[33].Items
+                 const myArray = test.split(",");
+                 console.log(myArray)
+
+                 gourmetDelightData = ""
+                 gourmetDelightData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Gourmet Delights</STRONG></EM></div></TD></TR>"
+                 porkData = ""
+                 porkData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Pork</STRONG></EM></div></TD></TR>"
+                 chickenData = ""
+                 chickenData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Chicken</STRONG></EM></div></TD></TR>"
+                 beefData = ""
+                 beefData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Beef</STRONG></EM></div></TD></TR>"
+                 seafoodData = ""
+                 seafoodData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Seafood</STRONG></EM></div></TD></TR>"
+                 vegetarianData = ""
+                 vegetarianData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Vegetarian Dishes</STRONG></EM></div></TD></TR>"
+                 soupData = ""
+                 soupData += "<TR bgColor=#008000><TD colSpan=2><div align=center><EM><STRONG>Soups</STRONG></EM></div></TD></TR>"
+
+
+                 for (let i = 0; i < results.data.length; ++i){
+                     // Gourmet Delights
+                     if (results.data[i].Category == "Gourmet Delights"){
+                        var table1 = document.getElementById("gourmetDelightSection");
+                        gourmetDelightData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table1.innerHTML = gourmetDelightData;
+                     }
+                     // Pork
+                     else if (results.data[i].Category == "Pork") {
+                        var table2 = document.getElementById("porkSection");
+                        porkData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table2.innerHTML = porkData;
+                     }
+                     // Chicken
+                     else if (results.data[i].Category == "Chicken") {
+                        var table3 = document.getElementById("chickenSection");
+                        chickenData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table3.innerHTML = chickenData;
+                     }
+                     // Beef
+                     else if (results.data[i].Category == "Beef") {
+                        var table4 = document.getElementById("beefSection");
+                        beefData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table4.innerHTML = beefData;
+                     }
+                     // Seafood
+                     else if (results.data[i].Category == "Seafood") {
+                        var table5 = document.getElementById("seafoodSection");
+                        seafoodData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table5.innerHTML = seafoodData;
+                     }
+                     // Vegetarian Dishes
+                     else if (results.data[i].Category == "Vegetarian_Dishes") {
+                        var table6 = document.getElementById("vegetarianSection");
+                        vegetarianData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table6.innerHTML = vegetarianData;
+                     }
+                     // Soups
+                     else if (results.data[i].Category == "Soups") {
+                        var table4 = document.getElementById("soupSection");
+                        soupData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<br></STRONG></div></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                        table4.innerHTML = soupData;
+                     }
+                     
+                 }
+               //   document.getElementById("Combination Lo Mein").innerHTML = results.data[0].Price
+             }
+         })
+     </script>
+   </body>
+</html>
