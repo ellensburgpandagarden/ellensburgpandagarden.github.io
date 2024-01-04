@@ -31,3 +31,13 @@ To configure the files, edit the config.ini file. This file is responsible for t
 #### Github Repository: https://github.com/TylerKay/pg_app
 
 #### Last updated: 8/21/2022
+
+
+
+
+### To-do
+- Add Egg Foo Young to website
+
+
+### Updates
+- Removed oriental and american salads
