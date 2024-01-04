@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+   <div align="center" style="z-index:9;visibility:visible;">
+   </div>
+   <style>
+      HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/wwfpanda.cur"), 
+      url("http://downloads.totallyfreecursors.com/thumbnails/wwf-panda.gif"), auto;}
+   </style>
+   <head>
+      <title>Panda Garden</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <head>
+      <meta name="keywords" content="ellensburg restaurants, ellensburg food, ellensburg, panda garden, ellensburg panda garden, ellensburg chinese food, ellensburg asian, ellensburg chinese, chinese kittitas, chinese food wa, kittitas county, restaurants near me," />
+      <meta name="description" content="Panda Garden Ellensburg Washington" />
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+      <nav>
+         <div>
+            <div>
+               <p>
+                  <a href="index.html">
+                     <img src="pic/icon3.0.jpg" width="296px;"height= 47px;> 
+            </div>
+            </p>
+            <ul>
+               <li><a href="">&nbsp;</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Menu</a>
+               <ul>
+                  <li><a href="entree.html">Entree</a></li>
+                  <li><a href="appetizer.html">Appetizer</a></li>
+                  <li><a href="lunchcombo.html">Lunch Combination</a></li>
+                  <li><a href="dinnercombo.html">Dinner Combination</a></li>
+                  <li><a href="familydinners.html">Family Dinner</a></li>
+                  <li><a href="noodle-bowls_side-orders_and_beverages.html">Noodle Bowls, Side Orders and Beverages</a></li>
+                  <li><a href="traditional_chinese_menu.html">Traditional Chinese</a></li>	
+               </ul>
+               <li><a href="contact_us.html">Contact Us</a></li>
+            </div>
+         </ul>
+         </div>
+      </nav>
+      <header class="showcase">
+         <br>
+         <br>
+         <br>
+         <div>
+            <h1>Dinner Combinations</h1>
+         </div>
+         <br>
+         <p><b>We Deliver (509) 925-2090</b></p>
+         <font size="3" face="arial">
+         <br>
+         <br>
+         <p> Served with Soup and Fortune Cookie. Substitution $0.75 or more</p>
+         <div align=center><br></div>
+         <div align=center>
+            <table id="#1-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#2-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#3-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#4-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#5-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#6-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#7-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#8-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="#9-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="Rice Bowl-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+
+            <table border=0 cellSpacing=10 cellPadding=5 width=800>
+                  <tr bgColor=#008000>
+                     <td colSpan=2>
+                        <div id="Rice Bowl" align=center><EM><STRONG>Rice Bowl</STRONG></EM></div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div align=center><STRONG>A heaping bowl of steamed rice covered with our chef's delicious toppings!<BR></STRONG></div>
+                     </td>
+                  <tr>
+                     <td>
+                        <div id="Lunch" align=left><STRONG><BR></STRONG></div>
+                     </td>
+                     <td id="Lunch_Rice_Bowl_Price" align=right></td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <div id="Dinner"align=left><STRONG></STRONG></div>
+                     </td>
+                     <td id = "Dinner_Rice_Bowl_Price" align=right></td>
+                  </tr>
+            </table>
+         </div>
+            
+      </header>
+      </div>
+      <script>
+         Papa.parse("../menu.csv", {
+             download: true,
+             header: true,
+             skipEmptyLines: true,
+             complete: function (results) {
+                 console.log(results)
+                  sections = ["#1", "#2", "#3", "#4", "#5", "#6", "#7", "#8", "#9"]
+
+                  for (let i = 0; i < results.data.length; ++i){
+                     for (let sectionIter = 0; sectionIter < sections.length; ++sectionIter){
+                        if (results.data[i].Category == "Dinner_Combo/" + sections[sectionIter]){
+                           var section = document.getElementById(sections[sectionIter] + "-section");
+                           sectionData = "<tr bgColor=#008000><td colSpan=1><div align=center><EM><STRONG>" + sections[sectionIter] + "</STRONG></EM></div></td></tr>"
+                           items = results.data[i].Items.split(";");
+
+                           for (let j = 0; j < items.length; ++j){
+                              sectionData += "<tr><td><div align=center><STRONG>" + items[j] + "<BR></STRONG></div></td></tr>"
+                           }
+                           sectionData += "<tr><td><div align=center><STRONG>" + results.data[i].Price + "<BR></STRONG></div></td></tr>"
+
+                           section.innerHTML = sectionData;
+                        }
+                        // Lunch Rice Bowl
+                        else if (results.data[i].Category == "Rice_Bowl/Lunch"){
+                           sectionName = document.getElementById("Lunch");
+                           sectionP = document.getElementById("Lunch_Rice_Bowl_Price");
+                           sectionName.innerHTML = "<STRONG>" + results.data[i].Name + "<STRONG>";
+                           sectionP.innerHTML = results.data[i].Price;
+                        }
+                        // Lunch Rice Bowl
+                        else if (results.data[i].Category == "Rice_Bowl/Dinner"){
+                           sectionName = document.getElementById("Dinner");
+                           sectionP = document.getElementById("Dinner_Rice_Bowl_Price");
+                           sectionName.innerHTML = "<STRONG>" + results.data[i].Name + "<STRONG>";
+                           sectionP.innerHTML = results.data[i].Price;
+                        }
+                     }
+                     
+                 }
+               //   document.getElementById("Combination Lo Mein").innerHTML = results.data[0].Price
+             }
+         })
+     </script>
+   </body>
+</html>

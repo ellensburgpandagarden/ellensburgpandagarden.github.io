@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+   <div align="center" style="z-index:9;visibility:visible;">
+   </div>
+   <style>
+      HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/wwfpanda.cur"), 
+      url("http://downloads.totallyfreecursors.com/thumbnails/wwf-panda.gif"), auto;}
+   </style>
+   <head>
+      <title>Panda Garden</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <head>
+      <meta name="keywords" content="ellensburg restaurants, ellensburg food, ellensburg, panda garden, ellensburg panda garden, ellensburg chinese food, ellensburg asian, ellensburg chinese, chinese kittitas, chinese food wa, kittitas county, restaurants near me," />
+      <meta name="description" content="Panda Garden Ellensburg Washington" />
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+      <nav>
+         <div>
+            <div>
+               <p>
+                  <a href="index.html">
+                     <img src="pic/icon3.0.jpg" width="296px;"height= 47px;> 
+            </div>
+            </p>
+            <ul>
+               <li><a href="">&nbsp;</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Menu</a>
+               <ul>
+                  <li><a href="entree.html">Entree</a></li>
+                  <li><a href="appetizer.html">Appetizer</a></li>
+                  <li><a href="lunchcombo.html">Lunch Combination</a></li>
+                  <li><a href="dinnercombo.html">Dinner Combination</a></li>
+                  <li><a href="familydinners.html">Family Dinner</a></li>
+                  <li><a href="noodle-bowls_side-orders_and_beverages.html">Noodle Bowls, Side Orders and Beverages</a></li>
+                  <li><a href="traditional_chinese_menu.html">Traditional Chinese</a></li>	
+               </ul>
+               <li><a href="contact_us.html">Contact Us</a></li>
+            </div>
+         </ul>
+         </div>
+      </nav>
+      <header class="showcase">
+         <br>
+         <br>
+         <br>
+         <div>
+            <h1>Traditional Chinese Menu</h1>
+         </div>
+         <br>
+         <p><b>We Deliver (509) 925-2090</b></p>
+         <font size="3" face="arial">
+         <div align=center><br></div>
+         <div align=center>
+            <table id="Traditional_Chinese_Menu-section" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+      </header>
+      </div>
+      <script>
+         Papa.parse("../menu.csv", {
+             download: true,
+             header: true,
+             skipEmptyLines: true,
+             complete: function (results) {
+                  
+               sectionData = ""
+               for (let i = 0; i < results.data.length; ++i){
+                  if (results.data[i].Category == "Traditional_Chinese_Menu"){
+                     section = document.getElementById("Traditional_Chinese_Menu-section");
+                     sectionData += '<tr><td><div align=left><STRONG>' + results.data[i].Name + '<BR></STRONG></DIV></TD><TD align=right>' + results.data[i].Price + '</TD></TR>'
+                     section.innerHTML = sectionData;
+                  }
+               }
+                  
+               //   document.getElementById("Combination Lo Mein").innerHTML = results.data[0].Price
+             }
+         })
+     </script>
+   </body>
+</html>

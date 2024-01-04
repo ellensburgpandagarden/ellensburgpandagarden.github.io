@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <div align="center" style="z-index:9;visibility:visible;">
+   </div>
+   <style>
+      HTML,BODY{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/wwfpanda.cur"), 
+      url("http://downloads.totallyfreecursors.com/thumbnails/wwf-panda.gif"), auto;}
+   </style>
+   <head>
+      <title>Panda Garden</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <head>
+      <meta name="keywords" content="ellensburg restaurants, ellensburg food, ellensburg, panda garden, ellensburg panda garden, ellensburg chinese food, ellensburg asian, ellensburg chinese, chinese kittitas, chinese food wa, kittitas county, restaurants near me," />
+      <meta name="description" content="Panda Garden Ellensburg Washington" />
+   </head>
+   <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+      <nav>
+         <div>
+            <div>
+               <p>
+                  <a href="index.html">
+                     <img src="pic/icon3.0.jpg" width="296px;"height= 47px;> 
+            </div>
+            </p>
+            <ul>
+               <li><a href="">&nbsp;</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Menu</a>
+               <ul>
+                  <li><a href="entree.html">Entree</a></li>
+                  <li><a href="appetizer.html">Appetizer</a></li>
+                  <li><a href="lunchcombo.html">Lunch Combination</a></li>
+                  <li><a href="dinnercombo.html">Dinner Combination</a></li>
+                  <li><a href="familydinners.html">Family Dinner</a></li>
+                  <li><a href="noodle-bowls_side-orders_and_beverages.html">Noodle Bowls, Side Orders and Beverages</a></li>
+                  <li><a href="traditional_chinese_menu.html">Traditional Chinese</a></li>	
+               </ul>
+               <li><a href="contact_us.html">Contact Us</a></li>
+            </div>
+         </ul>
+         </div>
+      </nav>
+      <header class="showcase">
+         <br>
+         <br>
+         <br>
+         <div>
+            <h1>Lunch Combinations</h1>
+         </div>
+         <br>
+         <p><b>We Deliver (509) 925-2090</b></p>
+         <font size="3" face="arial">
+         <br>
+         <br>
+         <p> Served with Steamed Rice and Spring Roll </p>
+         <DIV align=center><BR></DIV>
+         <DIV align=center>
+            <table id="section-A" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-B" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-C" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-D" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-E" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-F" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-G" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-H" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-I" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-J" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-K" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-L" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-M" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-N" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-O" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-P" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-Q" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+            <table id="section-R" border=0 cellSpacing=10 cellPadding=5 width=800></table>
+
+         </div>
+         </div>
+      </header>
+      </div>
+      <script>
+         Papa.parse("../menu.csv", {
+             download: true,
+             header: true,
+             skipEmptyLines: true,
+             complete: function (results) {
+                 console.log(results)
+                 test = results.data[33].Items
+                 const myArray = test.split(",");
+                 console.log(myArray)
+                  sections = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R"]
+
+                  for (let i = 0; i < results.data.length; ++i){
+                     for (let sectionIter = 0; sectionIter < sections.length; ++sectionIter){
+                        if (results.data[i].Category == "Lunch_Combo/" + sections[sectionIter]){
+                           var section = document.getElementById("section-" + sections[sectionIter]);
+                           sectionData = "<TR bgColor=#008000><TD colSpan=1><DIV align=center><EM><STRONG>" + sections[sectionIter] + "</STRONG></EM></DIV></TD></TR>"
+                           items = results.data[i].Items.split(";");
+
+                           for (let j = 0; j < items.length; ++j){
+                              sectionData += "<TR><TD><DIV align=center><STRONG>" + items[j] + "<BR></STRONG></DIV></TD></TR>"
+                           }
+                           sectionData += "<TR><TD><DIV align=center><STRONG>" + results.data[i].Price + "<BR></STRONG></DIV></TD></TR>"
+
+                           section.innerHTML = sectionData;
+                        }
+                     }
+                     
+                 }
+               //   document.getElementById("Combination Lo Mein").innerHTML = results.data[0].Price
+             }
+         })
+     </script>
+   </body>
+</html>

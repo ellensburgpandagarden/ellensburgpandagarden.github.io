@@ -1,0 +1,218 @@
+Name,Price,Category,Items,ID
+,,,,
+Entree,,,,#000
+Combination Lo Mein,$13.50 ,Gourmet Delights,,#001
+Happy Family,$13.25 ,Gourmet Delights,,#002
+Sesame Prawn or Beef,$14.50 ,Gourmet Delights,,#003
+Singapore Chow Fun,$13.25 ,Gourmet Delights,,#004
+Kung Pao Delight,$13.25 ,Gourmet Delights,,#005
+,,,,#006
+Moo Shu Pork (with 4 pancakes),$12.25 ,Pork,,#007
+Sweet & Sour Pork,$11.75 ,Pork,,#008
+Pork Lo Mein,$11.75 ,Pork,,#009
+Pork with Mixed Vegetables,$11.75 ,Pork,,#010
+,,,,#011
+General Tso Chicken,$11.75 ,Chicken,,#012
+Moo Shu Chicken (with 4 pancakes),$12.25 ,Chicken,,#013
+Sweet & Sour Chicken,$11.75 ,Chicken,,#014
+Chicken with Snow Pea,$12.25 ,Chicken,,#015
+Chicken with Broccoli,$12.25 ,Chicken,,#016
+Kung Pao Chicken,$12.25 ,Chicken,,#017
+Chicken with Garlic Sauce,$12.25 ,Chicken,,#018
+Orange Chicken,$13.25 ,Chicken,,#019
+Lemon Chicken,$12.50 ,Chicken,,#020
+Chicken/Cashew Nuts,$11.75 ,Chicken,,#021
+Curry Chicken,$11.75 ,Chicken,,#022
+Chicken Lo Mein (soft noodle),$11.75 ,Chicken,,#023
+Chicken/Mixed Vegetables,$11.75 ,Chicken,,#024
+Almond Fried Chicken,$11.75 ,Chicken,,#025
+Mandarin Chicken,$11.75 ,Chicken,,#026
+Honey Walnut Chicken,$13.95 ,Chicken,,#027
+,,,,#028
+Moo Shu Beef (with 4 pancakes),$12.95 ,Beef,,#029
+Beef with Broccoli,$12.25 ,Beef,,#030
+Beef with Cashew Nuts,$12.25 ,Beef,,#031
+Mongolian Beef,$12.95 ,Beef,,#032
+Pepper Steak,$12.25 ,Beef,,#033
+Schezuan Beef,$12.25 ,Beef,,#034
+Beef Lo Mein (soft noodle),$12.25 ,Beef,,#035
+Beef with Mixed Vegetable,$12.25 ,Beef,,#036
+Kung Pao Beef,$12.25 ,Beef,,#037
+Teriyaki Beef (or chicken),$12.75 ,Beef,,#038
+Beef with Tomato (soft noodle) ,$12.75 ,Beef,,#039
+Beef with Black Bean Sauce,$12.75 ,Beef,,#040
+,,,,#041
+Honey Walnut Prawns,$14.95 ,Seafood,,#042
+Moo Shu Prawns,$13.95 ,Seafood,,#043
+Sweet & Sour Prawns,$13.50 ,Seafood,,#044
+Prawn with Cashew Nuts ,$13.50 ,Seafood,,#045
+Kung Pao Prawns,$13.50 ,Seafood,,#046
+Shrimp with Lobster Sauce,$13.50 ,Seafood,,#047
+Prawn with Garlic Sauce,$13.50 ,Seafood,,#048
+Curry Prawns,$13.50 ,Seafood,,#049
+Shrimp Lo Mein,$13.50 ,Seafood,,#050
+Prawns/Mixed Vegetables,$13.50 ,Seafood,,#051
+Prawn with Broccoli,$13.50 ,Seafood,,#052
+Princess Prawns,$13.50 ,Seafood,,#053
+Prawn with Snow Peas,$13.50 ,Seafood,,#054
+Shrimp Chow Fun,$13.50 ,Seafood,,#055
+,,,,#056
+Chinese Mixed Vegetables,$10.95 ,Vegetarian_Dishes,,#057
+Tofu with Black Mushrooms,$11.75 ,Vegetarian_Dishes,,#058
+Vegetable Lo Mein,$11.75 ,Vegetarian_Dishes,,#059
+Sesame Tofu,$11.75 ,Vegetarian_Dishes,,#060
+Teriyaki Tofu,$11.75 ,Vegetarian_Dishes,,#061
+Kung Pao Tofu,$11.75 ,Vegetarian_Dishes,,#062
+Mongolian Tofu,$11.75 ,Vegetarian_Dishes,,#063
+Tofu with Broccoli,$11.75 ,Vegetarian_Dishes,,#064
+Moo Shu Vegetables,$11.75 ,Vegetarian_Dishes,,#065
+Tofu Schezuan Style,$11.75 ,Vegetarian_Dishes,,#066
+Broccoli in Garlic Sauce,$11.75 ,Vegetarian_Dishes,,#067
+Tofu with Black Bean Sauce,$11.75 ,Vegetarian_Dishes,,#068
+Curry Vegetables or Tofu,$11.75 ,Vegetarian_Dishes,,#069
+Tofu in Garlic Sauce,$11.75 ,Vegetarian_Dishes,,#070
+Tofu with Cashew Nuts,$12.25 ,Vegetarian_Dishes,,#071
+Vegetables Chow Fun,$12.25 ,Vegetarian_Dishes,,#072
+,,,,#073
+Egg Flower Soup,Small $3.75   &nbsp; &nbsp;  Large $7.50,Soups,,#074
+Won Ton Soup,Small $3.75   &nbsp; &nbsp;  Large $7.50,Soups,,#075
+Hot & Sour Soup,Small $3.75  &nbsp; &nbsp;   Large $7.50,Soups,,#076
+Vegetable Soup,Small $3.75  &nbsp; &nbsp;   Large $7.50,Soups,,#077
+,,,,#078
+,,,,#079
+Appetizer,,,,#080
+"House Appetizers (Egg roll, Crab Cheese Won Ton, BBQ Pork, Fried Prawns)",$11.50 ,Appetizer,,#081
+Crab Cheese Won Ton (8),$8.75 ,Appetizer,,#082
+BBQ Pork,$8.50 ,Appetizer,,#083
+Egg Roll (1),$2.50 ,Appetizer,,#084
+Spring Roll (2),$2.75 ,Appetizer,,#085
+Dumplings (Steamed or Pan Fried),$8.75 ,Appetizer,,#086
+Fried Won Ton Skin,$4.75 ,Appetizer,,#087
+Golden Fried Prawns (6),$8.25 ,Appetizer,,#088
+,,,,#089
+Green Salad,$5.25 ,American Salads,,#090
+Chicken Salad,$9.75 ,American Salads,,#091
+Shrimp Salad,$10.75 ,American Salads,,#092
+,,,,#093
+Oriental Chicken Salad,$9.75 ,Oriental Salads,,#094
+Oriental Shrimp Salad,$10.25 ,Oriental Salads,,#095
+Oriental House Salad,$10.25 ,Oriental Salads,,#096
+,,,,#097
+,,,,#098
+Lunch Combination,,,,#099
+A,$9.50 ,Lunch_Combo/A,Sweet & Sour Prawns ; Soup or Salad,#100
+B,$9.50 ,Lunch_Combo/B,Egg Foo Young ; Soup or Salad,#101
+C,$9.50 ,Lunch_Combo/C,Sweet & Sour Pork ; Soup or Salad,#102
+D,$9.50 ,Lunch_Combo/D,Kung Pao Beef or Chicken ; Soup or Salad,#103
+E,$9.50 ,Lunch_Combo/E,Teriyaki Chicken or Beef ; Soup or Salad,#104
+F,$9.50 ,Lunch_Combo/F,Sweet & Sour Chicken ; Soup or Salad,#105
+G,$10.95 ,Lunch_Combo/G,Chicken & Snowpeas ; Soup or Salad,#106
+H,$9.50 ,Lunch_Combo/H,Boneless Almond Chicken ; Soup or Salad,#107
+I,$9.50 ,Lunch_Combo/I,Chicken Garlic ; Soup or Salad,#108
+J,$9.50 ,Lunch_Combo/J,Broccoli Chicken or Beef ; Soup or Salad,#109
+K,$9.50 ,Lunch_Combo/K,Mongolian Chicken or Beef ; Soup or Salad,#110
+L,$9.50 ,Lunch_Combo/L,General Tso Chicken ; Soup or Salad,#111
+M,$9.50 ,Lunch_Combo/M,"Chicken, Beef, Pork, or Vegetable Lo Mein (Soft Noodle) ; Soup or Salad",#112
+N,$9.50 ,Lunch_Combo/N,"Chicken, Beef, Pork, or Vegetable Chow Mein (Crispy Noodle) ; Soup or Salad",#113
+O,$9.50 ,Lunch_Combo/O,Curry Chicken ; Soup or Salad,#114
+P,$9.50 ,Lunch_Combo/P,Sesame Tofu ; Soup or Salad,#115
+Q,$9.50 ,Lunch_Combo/Q,Mixed Vegetables ; Soup or Salad,#116
+R,$9.50 ,Lunch_Combo/R,"Chicken, Beef, Pork, or Vegetable Phad Thai ; Soup or Salad",#117
+,,,,#118
+,,,,#119
+Dinner Combination,,,,#120
+#1,$10.50 ,Dinner_Combo/#1,Sweet & Sour Pork ; Cashew Chicken Chow Mein ; Pork Fried Rice,#121
+#2,$10.50 ,Dinner_Combo/#2,Egg Foo Young ; Almond Pork Chow Mein ; Sweet & Sour Spareribs,#122
+#3,$11.50 ,Dinner_Combo/#3,Pork Chow Mein ; Sweet & Sour Chicken ; Egg Roll,#123
+#4,$11.75 ,Dinner_Combo/#4,Fried Prawns ; Egg Foo Young ; Sweet & Sour Pork ; Pork Fried Rice,#124
+#5,$11.75 ,Dinner_Combo/#5,Fried Prawns ; Almond Fried Chicken ; Sweet and Sour Pork ; Pork Fried Rice,#125
+#6,$11.75 ,Dinner_Combo/#6,Chicken Chow Mein ; Sweet and Sour Prawns ; BBQ Pork ; Pork Fried Rice,#126
+#7,$12.25 ,Dinner_Combo/#7,Pork Chow Mein ; Almond Fried Chicken ; BBQ Pork ; Egg Roll ; Pork Fried Rice,#127
+#8,$12.25 ,Dinner_Combo/#8,Sweet & Sour Chicken ; Almond Pork Chow Mein ; BBQ Pork ; Fried Prawns ; Pork Fried Rice,#128
+#9,$12.75 ,Dinner_Combo/#9,General Tso Chicken ; Chicken Lo Mein ; Egg Roll ; Pork Fried Rice,#129
+,,,,#130
+Lunch,$7.99 ,Rice_Bowl/Lunch,,#131
+Dinner,$9.99 ,Rice_Bowl/Dinner,,#132
+,,,,#133
+,,,,#134
+Family Dinners,,,,#135
+"Chicken, Pork, Beef, or Vegetable Chow Mein",$10.75 ,Chow Mein (Crispy Noodle) or Chop Suey,,#136
+Shrimp Chow Mein,$12.75 ,Chow Mein (Crispy Noodle) or Chop Suey,,#137
+Almond Chicken Chow Mein,$12.75 ,Chow Mein (Crispy Noodle) or Chop Suey,,#138
+Combination Chow Mein,$12.75 ,Chow Mein (Crispy Noodle) or Chop Suey,,#139
+,,,,#140
+"Chicken, Pork, or Vegetable Lo Mein",$11.75 ,Lo Mein,,#141
+Beef Lo Mein,$12.25 ,Lo Mein,,#142
+Shrimp Lo Mein,$13.50 ,Lo Mein,,#143
+Combination Lo Mein,$13.50 ,Lo Mein,,#144
+,,,,#145
+"Chicken, Pork, or Beef Chow Fun",$12.25 ,Chow Fun (Rice Noodle Chinese Style),,#146
+Shrimp Chow Fun,$13.50 ,Chow Fun (Rice Noodle Chinese Style),,#147
+Combination Chow Fun,$13.50 ,Chow Fun (Rice Noodle Chinese Style),,#148
+,,,,#149
+"Chicken, Pork, Beef, or Vegetable Fried Rice",$9.75 ,Fried Rice,,#150
+Shrimp Fried Rice,$10.75 ,Fried Rice,,#151
+Combination Fried Rice,$10.75 ,Fried Rice,,#152
+,,,,#153
+Chef's Special,$14.50 per person,Family_Dinner/Chef_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Beef Chow Yuk ; Sweet and Sour Prawns ; Almond Fried Chicken ; Pork Fried Rice ; Fortune Cookie,#154
+House Special,$14.50 per person,Family_Dinner/House_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Chicken Lo Mein ; Sweet and Sour Pork ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#155
+Panda Special,$14.50 per person,Family_Dinner/Panda_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; General Tso Chicken ; Chicken Lo Mein ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#156
+,,,,#157
+,,,,#158
+"Noodle Bowls, Side Orders, and Beverages",,,,#159
+Barbecued Pork Noodles,$9.75 ,Noodle Soup Bowls,,#160
+Chicken Noodles,$9.75 ,Noodle Soup Bowls,,#161
+"House Noodles (Shrimp, Chicken, and Pork with Vegetables)",$10.75 ,Noodle Soup Bowls,,#162
+Shrimp Noodles,$10.75 ,Noodle Soup Bowls,,#163
+Beef with Vegetable Noodles,$10.75 ,Noodle Soup Bowls,,#164
+Vegetable Noodles,$9.75 ,Noodle Soup Bowls,,#165
+,,,,#166
+Soda,$1.95 ,Beverages,,#167
+Coffee,$1.95 ,Beverages,,#168
+Tea,$1.95 ,Beverages,,#169
+Hot Chocolate,$2.50 ,Beverages,,#170
+Iced Tea,$2.25 ,Beverages,,#171
+Thai Iced Tea (Sweet),$3.25 ,Beverages,,#172
+Fresh Lemonade,$2.75 ,Beverages,,#173
+Fresh Strawberry Lemonade,$3.50 ,Beverages,,#174
+Apple Juice,$1.75 ,Beverages,,#175
+Orange Juice,$1.75 ,Beverages,,#176
+Italian Soda,$3.00 ,Beverages,,#177
+,,,,#178
+Steamed Rice,Small $3.75   &nbsp; &nbsp;  Large $4.25,Side Orders,,#179
+Fried Rice,Small $3.75   &nbsp; &nbsp;  Large $4.75,Side Orders,,#180
+Pan Fried Noodles,Small $4.25   &nbsp; &nbsp;  Large $6.95,Side Orders,,#181
+French Fries,$4.95 ,Side Orders,,#182
+Sesame Seed Sauce,$2.00 ,Side Orders,,#183
+Teriyaki Sauce,$2.00 ,Side Orders,,#184
+Thai Peanut Sauce,$2.50 ,Side Orders,,#185
+Steamed Broccoli,$4.95 ,Side Orders,,#186
+,,,,#187
+,,,,#188
+Traditional Chinese Menu,,,,#189
+Fish Hot Pot,$15.95 ,Traditional_Chinese_Menu,,#190
+Beef Hot Pot,$16.95 ,Traditional_Chinese_Menu,,#191
+Seafood Combination with Black Bean Sauce,$16.95 ,Traditional_Chinese_Menu,,#192
+Seafood Tofu in Szechuan Pot,$16.95 ,Traditional_Chinese_Menu,,#193
+Hot Pepper Salt with Shrimp,$16.95 ,Traditional_Chinese_Menu,,#194
+Shanghai Baby Bok Choy in Garlic Sauce,$13.95 ,Traditional_Chinese_Menu,,#195
+Chinese Yams with Vegetables,$19.95 ,Traditional_Chinese_Menu,,#196
+Eggplant with Szechuan Sauce,$15.95 ,Traditional_Chinese_Menu,,#197
+Eggplant with Fish Sauce,$15.95 ,Traditional_Chinese_Menu,,#198
+Mapo Tofu,$13.95 ,Traditional_Chinese_Menu,,#199
+Happy Family Chinese Style,$15.95 ,Traditional_Chinese_Menu,,#200
+Hot Pepper Salted with Chicken Wing,$15.95 ,Traditional_Chinese_Menu,,#201
+Roast Duck,$10.95 (Appetizer)   &nbsp; &nbsp;  $18.95 (Half) &nbsp; &nbsp;  $33.95 (Whole),Traditional_Chinese_Menu,,#202
+,,,,#203
+Chicken Egg Foo Young,"$4.95 (1 piece)	&nbsp; &nbsp; $8.25 (2 piece)	&nbsp; &nbsp;  $11.50 (3 piece)",Egg_Foo_Young,,#204
+Pork Egg Foo Young,"$4.95 (1 piece)	&nbsp; &nbsp; $8.25 (2 piece)	&nbsp; &nbsp;  $11.50 (3 piece)",Egg_Foo_Young,,#205
+Veggie Egg Foo Young,"$4.95 (1 piece)	&nbsp; &nbsp; $8.25 (2 piece)	&nbsp; &nbsp;  $11.50 (3 piece)",Egg_Foo_Young,,#206
+Shrimp Egg Foo Young,"$4.95 (1 piece)	&nbsp; &nbsp; $8.25 (2 piece)	&nbsp; &nbsp;  $11.50 (3 piece)",Egg_Foo_Young,,#207
+,,,,#208
+"Tofu, Chicken, Beef, or Vegetable Phad Thai",$11.75 ,Phad Thai,,#209
+Combination Phad Thai,$13.25 ,Phad Thai,,#210
+Shrimp Phad Thai,$13.25 ,Phad Thai,,#211
+,,,,#212
+Chicken with Peanut Sauce,$12.25 ,Thai Peanut Sauce,,#213
+Tofu with Peanut Sauce,$12.25 ,Thai Peanut Sauce,,#214
+Prawn with Peanut Sauce,$13.25 ,Thai Peanut Sauce,,#215
