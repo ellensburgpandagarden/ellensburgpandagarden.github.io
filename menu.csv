@@ -154,9 +154,9 @@ Combination Chow Fun,14.5,Chow Fun (Rice Noodle Chinese Style),,#148
 Shrimp Fried Rice,11.75,Fried Rice,,#151
 Combination Fried Rice,11.75,Fried Rice,,#152
 ,,,,#153
-Chef's Special,14.95,Family_Dinner/Chef_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Beef Chow Yuk ; Sweet and Sour Prawns ; Almond Fried Chicken ; Pork Fried Rice ; Fortune Cookie,#154
-House Special,14.95,Family_Dinner/House_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Chicken Lo Mein ; Sweet and Sour Pork ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#155
-Panda Special,14.95,Family_Dinner/Panda_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; General Tso Chicken ; Chicken Lo Mein ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#156
+Chef's Special,15.50,Family_Dinner/Chef_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Beef Chow Yuk ; Sweet and Sour Prawns ; Almond Fried Chicken ; Pork Fried Rice ; Fortune Cookie,#154
+House Special,15.50,Family_Dinner/House_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; Chicken Lo Mein ; Sweet and Sour Pork ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#155
+Panda Special,15.50,Family_Dinner/Panda_Special,Soup of the Day ; Egg Roll ; BBQ Pork ; General Tso Chicken ; Chicken Lo Mein ; Golden Fried Prawns ; Pork Fried Rice ; Fortune Cookie,#156
 ,,,,#157
 ,,,,#158
 "Noodle Bowls, Side Orders, and Beverages",,,,#159
@@ -171,13 +171,13 @@ Soda,$1.95 ,Beverages,,#167
 Coffee,$1.95 ,Beverages,,#168
 Tea,$1.95 ,Beverages,,#169
 Hot Chocolate,$2.50 ,Beverages,,#170
-Iced Tea,$2.50 ,Beverages,,#171
-Thai Iced Tea (Sweet),$3.50 ,Beverages,,#172
-Fresh Lemonade,$3.75 ,Beverages,,#173
-Fresh Strawberry Lemonade,$4.50 ,Beverages,,#174
+Iced Tea,Small $2.50   &nbsp; &nbsp;  Large $3.50 ,Beverages,,#171
+Thai Iced Tea (Sweet),Small $3.25   &nbsp; &nbsp;  Large $4.50 ,Beverages,,#172
+Fresh Lemonade,Small $3.75   &nbsp; &nbsp;  Large $5.00,Beverages,,#173
+Fresh Strawberry Lemonade,Small $4.50   &nbsp; &nbsp;  Large $5.60 ,Beverages,,#174
 Apple Juice,$1.75 ,Beverages,,#175
 Orange Juice,$1.75 ,Beverages,,#176
-Italian Soda,$3.95 ,Beverages,,#177
+Italian Soda,Small $3.95   &nbsp; &nbsp;  Large $5.25 ,Beverages,,#177
 ,,,,#178
 Steamed Rice,Small $3.75   &nbsp; &nbsp;  Large $4.25,Side Orders,,#179
 Fried Rice,Small $3.75   &nbsp; &nbsp;  Large $4.75,Side Orders,,#180
